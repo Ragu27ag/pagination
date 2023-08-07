@@ -1,0 +1,43 @@
+.maindiv{
+   
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap ;
+flex-direction: row;
+
+}
+
+body{
+    background: linear-gradient(to right,rgb(255, 167, 167), rgb(255, 176, 176));
+}
+
+.innerdiv{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    min-width: 400px;
+    font-size: larger;
+    border-radius: 8px;
+ 
+
+}
+
+.buttdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    margin: 5px;
+    border-radius: 50px;
+    background-color: rgb(255, 167, 167);
+
+}
+
